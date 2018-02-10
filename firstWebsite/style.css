@@ -1,4 +1,9 @@
- a {
+html, body {
+    margin: 0px;
+    padding: 0px;
+} 
+
+a {
      color: #f2f7f7;
      font-size: 24px;
      font-family: sans-serif;
@@ -22,4 +27,52 @@ li {
 
 .active {
     background-color: #2ab9b9;
+}
+
+p {
+    font-style: 24px;
+    font-family: sans-serif;
+    padding: 10px 60px
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #2b2c2c;
+}
+
+#footText {
+    color: #f2f7f7;
+}
+
+#bg1 {
+    background-image: url(images/bg1.jpg);
+}
+
+#bg2 {
+    background-image: url(images/bg2.jpg);
+}
+
+#bg3 {
+    background-image: url(images/bg3.jpg);
+}
+
+.picBackDrop {
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 120px 10px;
+    height: 60px;
+    text-align: center;
+    color: #f2f7f7;
+    font-family: sans-serif;
+    font-size: 72px;
+    
 }
